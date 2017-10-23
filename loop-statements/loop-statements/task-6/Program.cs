@@ -24,7 +24,7 @@ namespace task_6
                     six += 1;
                 }
             }
-            Console.WriteLine($"Kuutonen arvottiin {six} kertaa.");
+            Console.WriteLine($"\nKuutonen arvottiin {six} kertaa.");
             Console.ReadKey();
         }
     }
