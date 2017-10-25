@@ -21,12 +21,20 @@ namespace task_6
             while (i <= num)
             {
                 parseOutput = $"{parseOutput} x {i}";
-                n = n * i;              
+                n = n * i;
                 Console.WriteLine($"{i}!={n}"); //5!=120
                 i++;
             }
-            Console.WriteLine($"{parseOutput}={n}");
-            Console.ReadLine();
+            if (num < 0)
+            {
+                Console.WriteLine("Määrittelemätön");
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.WriteLine($"{parseOutput}={n}");
+                Console.ReadLine();
+            }
         }
     }
 }
