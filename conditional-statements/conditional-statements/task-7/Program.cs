@@ -18,7 +18,7 @@ namespace task_7
             int i = 1;
             int f = 1;
 
-            if (number < 0)
+            if (number < 1)
             {
                 Console.WriteLine("Virheellinen syöte");
             }
