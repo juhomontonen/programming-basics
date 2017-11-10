@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "arrays\arrays.csproj", "{73F0E3E1-7334-4C33-87F9-E3E1DF8AD4D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-2", "task-2\task-2.csproj", "{3232300F-FAFC-4979-980D-AEC7A684B2E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{73F0E3E1-7334-4C33-87F9-E3E1DF8AD4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F0E3E1-7334-4C33-87F9-E3E1DF8AD4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F0E3E1-7334-4C33-87F9-E3E1DF8AD4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3232300F-FAFC-4979-980D-AEC7A684B2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3232300F-FAFC-4979-980D-AEC7A684B2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3232300F-FAFC-4979-980D-AEC7A684B2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3232300F-FAFC-4979-980D-AEC7A684B2E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
