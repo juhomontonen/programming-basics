@@ -16,7 +16,7 @@ namespace task_2
 
             while (i < 7)
             {
-                int rndNumber = rnd.Next(0, 41);
+                int rndNumber = rnd.Next(0, 40);
                 if (lottorivi[rndNumber] == 0)
                 {
                     lottorivi[rndNumber] = 1;
@@ -33,7 +33,7 @@ namespace task_2
             }
                 while (true)
                 {
-                    int rndNumber = rnd.Next(0, 41);
+                    int rndNumber = rnd.Next(0, 40);
                     if (lottorivi[rndNumber] == 0)
                     {
                         lottorivi[rndNumber] = 2;
@@ -44,10 +44,10 @@ namespace task_2
                 {
                     if (lottorivi[i]==2)
                     {
-                        Console.WriteLine($" \nLisänumero: {i}");
+                        Console.WriteLine($"\nLisänumero: {i}");
                     }
                 }
-                Console.Write($"Tuplausnumero: {rnd.Next(0, 41)}");
+                Console.Write($"Tuplausnumero: {rnd.Next(0, 40)}");
             Console.ReadKey();
         }
     }
