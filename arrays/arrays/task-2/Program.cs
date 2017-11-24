@@ -10,19 +10,45 @@ namespace task_2
     {
         static void Main(string[] args)
         {
-            int[] lottorivi = new int[8];
+            int[] lottorivi = new int[40];
             Random rnd = new Random();
+            int i = 0;
 
-
-                for (int i = 0; i < lottorivi.Length; i++)
+            while (i < 7)
+            {
+                int rndNumber = rnd.Next(0, 41);
+                if (lottorivi[rndNumber] == 0)
                 {
-                    lottorivi[i] = rnd.Next(0, 40);
+                    lottorivi[rndNumber] = 1;
+                    i++;
                 }
-
-            Console.WriteLine($"{lottorivi[1]} {lottorivi[2]} {lottorivi[3]} {lottorivi[4]}");
-
-
-                Console.ReadKey();
+            }
+            Console.WriteLine("Oikea lottorivi on: ");
+            for (i = 0; i < lottorivi.Length; i++)
+            {
+                if (lottorivi[i] == 1)
+                {
+                    Console.Write($"{i} ");
+                }
+            }
+                while (true)
+                {
+                    int rndNumber = rnd.Next(0, 41);
+                    if (lottorivi[rndNumber] == 0)
+                    {
+                        lottorivi[rndNumber] = 2;
+                        break;
+                    }
+                }
+                for (i = 0; i < lottorivi.Length; i++)
+                {
+                    if (lottorivi[i]==2)
+                    {
+                        Console.WriteLine($" \nLisänumero: {i}");
+                    }
+                }
+                Console.Write($"Tuplausnumero: {rnd.Next(0, 41)}");
+            Console.ReadKey();
         }
     }
 }
